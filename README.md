@@ -1,1 +1,1 @@
-# Irish Personal Public Service Number (PPSN) validator with C Sharp
+# C Sharp Irish Personal Public Service Number (PPSN) validator
