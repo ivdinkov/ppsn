@@ -39,16 +39,12 @@ namespace PPSN_Validator
                     {
                         if (checkSum.Equals("W"))
                             return true;
-                        else
-                            return false;
                     }
                     else
                     {
                         var c = (Char)(65 + (remainder - 1));
                         if (c.ToString().Equals(checkSum))
                             return true;
-                        else
-                            return false;
                     }
                 }
                 else
@@ -60,15 +56,11 @@ namespace PPSN_Validator
                     {
                         if (ppsn.Substring(ppsn.Count() - 2, 1).Equals("W"))
                             return true;
-                        else
-                            return false;
                     }
                     else
                     {
                         if (ppsn.Substring(ppsn.Count() - 2, 1).Equals(alphabet.Substring((int)remainder - 1, 1)))
                             return true;
-                        else
-                            return false;
                     }
                 }
             }
